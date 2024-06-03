@@ -1,0 +1,11 @@
+{
+"Conditions_Enemy":{"ENEMY_KNOCKDOWN":[]},
+"Conditions_Machine":{"MACHINE_SPAWN":[]},
+"Conditions_Alchemi":{"MACHINE_ALCHEMI":[]},
+"Conditions_BaseLv":{"BASE_LV":[]},
+"Conditions_Time":{"TIME":[]},
+"ENEMY_SPAWNTIME":{"ENEMYS":[]},
+"MACHINE_DEFAULET":{"MACHINES":[]},
+"RESOURCE_DEFAULET":{"ATTACKER":0,"CRYSTAL":0,"DEFFENCER":0,"LV":0,"MINING":0,"MP":0,"RECOVERY":0,"UPPER":0,"TUTORIAL":0},
+"CRYSTAL_SPAWN":{"CRYSTALS":[]}
+}

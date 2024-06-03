@@ -1,0 +1,17 @@
+{
+  "Status": {
+    "ELEMENT": "Nomal",
+    "LV": 1.0,
+    "HP": 30.0,
+    "MULTIPLIER_HP": 5.40,
+    "AREAEFFECT": 2.0,
+    "LVUP_AREAEFFECT_RATE": 5.0,
+    "MULTIPLIER_EFFECT": 1.00,
+    "ALCHEMI_MP": 20.0,
+    "ALCHEMI_CRYSTAL": 40.0,
+    "REPEA_CRYSTAL": 35.0,
+    "LVUP_CRYSTAL": 120.0,
+    "DISMANTLING_CRYSTAL": 40.0,
+    "EFFECT_VALUE": 0.0
+  }
+}

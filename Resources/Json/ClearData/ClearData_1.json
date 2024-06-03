@@ -1,0 +1,873 @@
+{
+  "ClearData": {
+    "MACHINES": [
+      {
+        "ELEMENT": "Nomal",
+        "LV": 2,
+        "NAME": "Attacker",
+        "NUMBER": 0
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "Recovery",
+        "NUMBER": 1
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 2,
+        "NAME": "Mining",
+        "NUMBER": 2
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "Upper",
+        "NUMBER": 3
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "Defenser",
+        "NUMBER": 4
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 5
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 6
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 7
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 8
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 2,
+        "NAME": "None",
+        "NUMBER": 9
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 2,
+        "NAME": "None",
+        "NUMBER": 10
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 2,
+        "NAME": "None",
+        "NUMBER": 11
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 12
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 13
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 14
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 15
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 16
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 17
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 18
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 19
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 20
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 21
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 22
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 23
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 24
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 25
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 26
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 27
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 28
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 29
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 30
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 31
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 32
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 33
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 34
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 35
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 36
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 37
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 38
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 39
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 40
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 41
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 42
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 43
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 44
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 45
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 46
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 47
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 48
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 49
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 50
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 51
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 52
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 53
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 54
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 55
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 56
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 57
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 58
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 59
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 60
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 61
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 62
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 63
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 64
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 65
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 66
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 67
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 68
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 69
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 70
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 71
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 72
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 73
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 74
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 75
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 76
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 77
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 78
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 79
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 80
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 81
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 82
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 83
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 84
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 85
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 86
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 87
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 88
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 89
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 90
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 91
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 92
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 93
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 94
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 95
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 96
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 97
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 98
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 99
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 100
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 101
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 102
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 103
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 104
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 105
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 106
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 107
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 108
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 109
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 110
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 111
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 112
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 113
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 114
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 115
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 116
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 117
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 118
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 119
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 120
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 121
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 122
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 123
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 124
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 125
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 126
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 127
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 128
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 129
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 130
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 131
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 132
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 133
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 134
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 135
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 136
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 137
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 138
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 139
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 140
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 141
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 142
+      },
+      {
+        "ELEMENT": "Nomal",
+        "LV": 1,
+        "NAME": "None",
+        "NUMBER": 143
+      }
+    ],
+    "NUM": 0,
+    "TIME": 0
+  }
+}
+

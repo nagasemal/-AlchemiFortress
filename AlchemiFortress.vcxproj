@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>AlchemiFortress</RootNamespace>
+    <ProjectGuid>{7d416c57-1489-4e5a-a135-4766e100bf32}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DeviceResources.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="NecromaLib\GameData\Animation.h" />
+    <ClInclude Include="NecromaLib\GameData\Audio\BGMs.h" />
+    <ClInclude Include="NecromaLib\GameData\Audio\SEs.h" />
+    <ClInclude Include="NecromaLib\GameData\Audio\SystemSE.h" />
+    <ClInclude Include="NecromaLib\GameData\BinaryFile.h" />
+    <ClInclude Include="NecromaLib\GameData\Camera.h" />
+    <ClInclude Include="NecromaLib\GameData\Collider.h" />
+    <ClInclude Include="NecromaLib\GameData\CommonStruct.h" />
+    <ClInclude Include="NecromaLib\GameData\Easing.h" />
+    <ClInclude Include="NecromaLib\GameData\GameObject3D.h" />
+    <ClInclude Include="NecromaLib\GameData\GameObject2D.h" />
+    <ClInclude Include="NecromaLib\GameData\JsonLoder.h" />
+    <ClInclude Include="NecromaLib\GameData\MouseStaging.h" />
+    <ClInclude Include="NecromaLib\GameData\Particle_2D.h" />
+    <ClInclude Include="NecromaLib\GameData\picojson.h" />
+    <ClInclude Include="NecromaLib\GameData\ScreenToWorld.h" />
+    <ClInclude Include="NecromaLib\GameData\ShaderTemplate.h" />
+    <ClInclude Include="NecromaLib\GameData\SpriteCutter.h" />
+    <ClInclude Include="NecromaLib\GameData\TextRender.h" />
+    <ClInclude Include="NecromaLib\GameData\UserInterfase.h" />
+    <ClInclude Include="NecromaLib\SceneObject\Fade.h" />
+    <ClInclude Include="NecromaLib\SceneObject\SceneManager.h" />
+    <ClInclude Include="NecromaLib\SceneObject\SceneObj.h" />
+    <ClInclude Include="NecromaLib\Singleton\DeltaTime.h" />
+    <ClInclude Include="NecromaLib\Singleton\InputSupport.h" />
+    <ClInclude Include="NecromaLib\Singleton\ModelShader.h" />
+    <ClInclude Include="NecromaLib\Singleton\ShareData.h" />
+    <ClInclude Include="NecromaLib\Singleton\ShareJsonData.h" />
+    <ClInclude Include="NecromaLib\Singleton\SoundData.h" />
+    <ClInclude Include="NecromaLib\Singleton\SpriteLoder.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="RenderTexture.h" />
+    <ClInclude Include="Resources\Icon\Icon.h" />
+    <ClInclude Include="Scenes\Commons\DrawArrow.h" />
+    <ClInclude Include="Scenes\Commons\DrawBox.h" />
+    <ClInclude Include="Scenes\Commons\DrawClick.h" />
+    <ClInclude Include="Scenes\Commons\DrawKey.h" />
+    <ClInclude Include="Scenes\Commons\DrawMachine.h" />
+    <ClInclude Include="Scenes\Commons\DrawLine.h" />
+    <ClInclude Include="Scenes\Commons\DrawSlider.h" />
+    <ClInclude Include="Scenes\Commons\DrawTimer.h" />
+    <ClInclude Include="Scenes\Commons\DrawVariableNum.h" />
+    <ClInclude Include="Scenes\Commons\MissonAnimation.h" />
+    <ClInclude Include="Scenes\Commons\MyPostProcess.h" />
+    <ClInclude Include="Scenes\Commons\SelectionUI.h" />
+    <ClInclude Include="Scenes\Commons\ShaderButton.h" />
+    <ClInclude Include="Scenes\Commons\UIKeyControl.h" />
+    <ClInclude Include="Scenes\DataManager.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineFilter.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineManager.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineObject.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Attacker.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Defenser.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Mining.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_None.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Upper.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\Bullet\Bullet.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\Bullet\BulletDataBase.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\PlayerBase.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Recovery.h" />
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\StatePattern\IAM_MachineState.h" />
+    <ClInclude Include="Scenes\PlayScene\Camera\MoveCamera.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\EnemyCommander.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_HoppingMove.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_MeanderingMove.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_StandardMove.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\ICommand_Enemy.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyManager.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyObject.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\State\EnemyState.h" />
+    <ClInclude Include="Scenes\PlayScene\Enemy\State\IEnemyState.h" />
+    <ClInclude Include="Scenes\PlayScene\Field\Crystal\Crystal.h" />
+    <ClInclude Include="Scenes\PlayScene\Field\Field.h" />
+    <ClInclude Include="Scenes\PlayScene\Field\FieldObjectManager.h" />
+    <ClInclude Include="Scenes\PlayScene\Field\FieldObjectType.h" />
+    <ClInclude Include="Scenes\PlayScene\Mission\ClearVeil.h" />
+    <ClInclude Include="Scenes\PlayScene\Mission\EndlessMode.h" />
+    <ClInclude Include="Scenes\PlayScene\Mouse\MousePointer.h" />
+    <ClInclude Include="Scenes\PlayScene\PlayScene.h" />
+    <ClInclude Include="Scenes\PlayScene\Shadow\DorpShadow.h" />
+    <ClInclude Include="Scenes\PlayScene\Shadow\MagicCircle.h" />
+    <ClInclude Include="Scenes\PlayScene\Shadow\Particle.h" />
+    <ClInclude Include="Scenes\PlayScene\Shadow\ParticleUtility.h" />
+    <ClInclude Include="Scenes\PlayScene\Mission\MissionManager.h" />
+    <ClInclude Include="Scenes\PlayScene\Tutorial\CommandPattern\Commander_Tutorial.h" />
+    <ClInclude Include="Scenes\PlayScene\Tutorial\CommandPattern\ICommand_Tutorial.h" />
+    <ClInclude Include="Scenes\PlayScene\Tutorial\CommandPattern\TutorialCommands.h" />
+    <ClInclude Include="Scenes\PlayScene\Tutorial\Explanation.h" />
+    <ClInclude Include="Scenes\PlayScene\Tutorial\OperationInstructions.h" />
+    <ClInclude Include="Scenes\PlayScene\Tutorial\TutorialManager.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\BaseLv.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\DisplayMagicCircle.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\Gauge.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\MachineGauge.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\MachineSelect.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\MachineSelectManager.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\SelectionBox.h" />
+    <ClInclude Include="Scenes\PlayScene\UI\Number.h" />
+    <ClInclude Include="Scenes\ResultScene\Camera\ResultCamera.h" />
+    <ClInclude Include="Scenes\ResultScene\ResultDirection.h" />
+    <ClInclude Include="Scenes\ResultScene\ResultScene.h" />
+    <ClInclude Include="Scenes\SelectScene\MissionRender.h" />
+    <ClInclude Include="Scenes\SelectScene\SelectCamera.h" />
+    <ClInclude Include="Scenes\SelectScene\SelectScene.h" />
+    <ClInclude Include="Scenes\TitleScene\Camera\TitleCamera.h" />
+    <ClInclude Include="Scenes\TitleScene\Option\RenderOption.h" />
+    <ClInclude Include="Scenes\TitleScene\TitleLogo\TitleLogo.h" />
+    <ClInclude Include="Scenes\TitleScene\TitleLogo\Veil.h" />
+    <ClInclude Include="Scenes\TitleScene\TitleScene.h" />
+    <ClInclude Include="StepTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeviceResources.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NecromaLib\GameData\Audio\SEs.cpp" />
+    <ClCompile Include="NecromaLib\GameData\BinaryFile.cpp" />
+    <ClCompile Include="NecromaLib\GameData\Camera.cpp" />
+    <ClCompile Include="NecromaLib\GameData\Collider.cpp" />
+    <ClCompile Include="NecromaLib\GameData\Easing.cpp" />
+    <ClCompile Include="NecromaLib\GameData\GameObject3D.cpp" />
+    <ClCompile Include="NecromaLib\GameData\GameObject2D.cpp" />
+    <ClCompile Include="NecromaLib\GameData\JsonLoder.cpp" />
+    <ClCompile Include="NecromaLib\GameData\MouseStaging.cpp" />
+    <ClCompile Include="NecromaLib\GameData\Particle_2D.cpp" />
+    <ClCompile Include="NecromaLib\GameData\ScreenToWorld.cpp" />
+    <ClCompile Include="NecromaLib\GameData\ShaderTemplate.cpp" />
+    <ClCompile Include="NecromaLib\GameData\SpriteCutter.cpp" />
+    <ClCompile Include="NecromaLib\GameData\TextRender.cpp" />
+    <ClCompile Include="NecromaLib\GameData\UserInterfase.cpp" />
+    <ClCompile Include="NecromaLib\SceneObject\Fade.cpp" />
+    <ClCompile Include="NecromaLib\SceneObject\SceneManager.cpp" />
+    <ClCompile Include="NecromaLib\SceneObject\SceneObj.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\DeltaTime.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\InputSupport.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\ModelShader.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\ShareData.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\ShareJsonData.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\SoundData.cpp" />
+    <ClCompile Include="NecromaLib\Singleton\SpriteLoder.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawArrow.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawBox.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawClick.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawKey.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawMachine.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawLine.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawSlider.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawTimer.cpp" />
+    <ClCompile Include="Scenes\Commons\DrawVariableNum.cpp" />
+    <ClCompile Include="Scenes\Commons\MissonAnimation.cpp" />
+    <ClCompile Include="Scenes\Commons\MyPostProcess.cpp" />
+    <ClCompile Include="Scenes\Commons\SelectionUI.cpp" />
+    <ClCompile Include="Scenes\Commons\ShaderButton.cpp" />
+    <ClCompile Include="Scenes\Commons\UIKeyControl.cpp" />
+    <ClCompile Include="Scenes\DataManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineFilter.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineObject.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Attacker.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Defenser.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Mining.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_None.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Recovery.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Upeer.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\Bullet\Bullet.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\Bullet\BulletDataBase.cpp" />
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\PlayerBase.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Camera\MoveCamera.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\EnemyCommander.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_HoppingMove.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_MeanderingMove.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_StandardMove.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyObject.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Enemy\State\EnemyState.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Field\Crystal\Crystal.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Field\Field.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Field\FieldObjectManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Field\FieldObjectType.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Mission\ClearVeil.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Mission\EndlessMode.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Mouse\MousePointer.cpp" />
+    <ClCompile Include="Scenes\PlayScene\PlayScene.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Shadow\DorpShadow.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Shadow\MagicCircle.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Shadow\Particle.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Shadow\ParticleUtility.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Mission\MissionManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Tutorial\CommandPattern\TutorialCommands.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Tutorial\Explanation.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Tutorial\OperationInstructions.cpp" />
+    <ClCompile Include="Scenes\PlayScene\Tutorial\TutorialManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\BaseLv.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\DisplayMagicCircle.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\Gauge.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\MachineGauge.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\MachineSelect.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\MachineSelectManager.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\Number.cpp" />
+    <ClCompile Include="Scenes\PlayScene\UI\SelectionBox.cpp" />
+    <ClCompile Include="Scenes\ResultScene\Camera\ResultCamera.cpp" />
+    <ClCompile Include="Scenes\ResultScene\ResultDirection.cpp" />
+    <ClCompile Include="Scenes\ResultScene\ResultScene.cpp" />
+    <ClCompile Include="Scenes\SelectScene\MissionRender.cpp" />
+    <ClCompile Include="Scenes\SelectScene\SelectCamera.cpp" />
+    <ClCompile Include="Scenes\SelectScene\SelectScene.cpp" />
+    <ClCompile Include="Scenes\TitleScene\Camera\TitleCamera.cpp" />
+    <ClCompile Include="Scenes\TitleScene\Option\RenderOption.cpp" />
+    <ClCompile Include="Scenes\TitleScene\TitleLogo\TitleLogo.cpp" />
+    <ClCompile Include="Scenes\TitleScene\TitleLogo\Veil.cpp" />
+    <ClCompile Include="Scenes\TitleScene\TitleScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+    <ResourceCompile Include="Resources\Icon\Icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Json\BulletData\BulletData_Aqua.json" />
+    <None Include="Resources\Json\BulletData\BulletData_Earth.json" />
+    <None Include="Resources\Json\BulletData\BulletData_Flame.json" />
+    <None Include="Resources\Json\BulletData\BulletData_Nomal.json" />
+    <None Include="Resources\Json\BulletData\BulletData_Wind.json" />
+    <None Include="Resources\Json\EnemyData\EnemyData_Retreat.json" />
+    <None Include="Resources\Json\EnemyData\EnemyData_Hop.json" />
+    <None Include="Resources\Json\EnemyData\EnemyData_None.json" />
+    <None Include="Resources\Json\EnemyData\EnemyData_Slime.json" />
+    <None Include="Resources\Json\EnemyData\EnemyData_Worm.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiCrystal.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMode.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMachineIcon.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMiddle.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMP.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiNum.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiOffset.json" />
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiText.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationBack.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationDestory.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationLvUp.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationNext.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationOffset.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationRepair.json" />
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationSpawn.json" />
+    <None Include="Resources\Json\GameParameter\GameParameter.json" />
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeBaseLv.json" />
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeCrystal.json" />
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeHP.json" />
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeMP.json" />
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeOffset.json" />
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionArrow.json" />
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionMaxWave.json" />
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionNowWave.json" />
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionOffset.json" />
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionText.json" />
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionTimer.json" />
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationArrowL.json" />
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationOffset.json" />
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationSelect.json" />
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationTitle.json" />
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationArrowR.json" />
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationText.json" />
+    <None Include="Resources\Json\GameParameter\Result\UILayout_ResultNext.json" />
+    <None Include="Resources\Json\GameParameter\Result\UILayout_ResultSelect.json" />
+    <None Include="Resources\Json\GameParameter\Result\UILayout_ResultRetry.json" />
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectLeft.json" />
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectMiddle.json" />
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectMission.json" />
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectNumber.json" />
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectRight.json" />
+    <None Include="Resources\Json\GameParameter\Title\UILayout_TitleButton.json" />
+    <None Include="Resources\Json\GameParameter\Title\UILayout_TitleLogo.json" />
+    <None Include="Resources\Json\GameParameter\Title\UILayout_TitleVeil.json" />
+    <None Include="Resources\Json\GameParameter\Option\UILayout_OptionDouble.json" />
+    <None Include="Resources\Json\GameParameter\Option\UILayout_OptionExplanation.json" />
+    <None Include="Resources\Json\GameParameter\Option\UILayout_OptionOffset.json" />
+    <None Include="Resources\Json\MachineData\MachineData_Attacker.json" />
+    <None Include="Resources\Json\MachineData\MachineData_Defenser.json" />
+    <None Include="Resources\Json\MachineData\MachineData_Mining.json" />
+    <None Include="Resources\Json\MachineData\MachineData_None.json" />
+    <None Include="Resources\Json\MachineData\MachineData_Recovery.json" />
+    <None Include="Resources\Json\MachineData\MachineData_Upper.json" />
+    <None Include="Resources\Json\Particle2D\AlchemiCircle.json" />
+    <None Include="Resources\Json\Particle2D\AlchemiParticle.json" />
+    <None Include="Resources\Json\Particle2D\BoxBig.json" />
+    <None Include="Resources\Json\Particle2D\BoxToMouse.json" />
+    <None Include="Resources\Json\Particle2D\ClearParticle.json" />
+    <None Include="Resources\Json\Particle2D\MouseClick.json" />
+    <None Include="Resources\Json\Particle2D\MouseHold.json" />
+    <None Include="Resources\Json\Particle2D\MouseRelease.json" />
+    <None Include="Resources\Json\Particle2D\BoxSmall.json" />
+    <None Include="Resources\Json\StageData\Endless\StageData_0_0.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_1.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_2.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_7.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_8.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_9.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_3.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_4.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_5.json" />
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_6.json" />
+    <None Include="Resources\Json\StageData\Stage_2\StageData_2_1.json" />
+    <None Include="Resources\Json\StageData\Stage_2\StageData_2_2.json" />
+    <None Include="Resources\Json\StageData\Stage_3\StageData_3_1.json" />
+    <None Include="Resources\Json\StageData\Stage_3\StageData_3_2.json" />
+    <None Include="Resources\Json\StageData\Stage_4\StageData_4_1.json" />
+    <None Include="Resources\Shader\BaseLv.hlsli" />
+    <None Include="Resources\Shader\Button.hlsli" />
+    <None Include="Resources\Shader\CutTexture.hlsli" />
+    <None Include="Resources\Shader\DisplayMagicCircle.hlsli" />
+    <None Include="Resources\Shader\MyModelShader.hlsli" />
+    <None Include="Resources\Shader\MagicCircle.hlsli" />
+    <None Include="Resources\Shader\PostProcess.hlsli" />
+    <None Include="Resources\Shader\Shadow.hlsli" />
+    <None Include="Resources\Shader\ShadowDepth.hlsli" />
+    <None Include="Resources\Shader\Transition.hlsli" />
+    <None Include="Resources\Shader\TutorialShader.hlsli" />
+    <None Include="Resources\Shader\UI.hlsli" />
+    <None Include="Resources\Shader\Veil.hlsli" />
+    <None Include="Resources\Shader\ZoomUI.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\BaseLv_GS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\BaseLv_PS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\BaseLv_VS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Button_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Button_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Button_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\CutTexture_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\CutTexture_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\CutTexture_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\DisplayMagicCircle_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\DisplayMagicCircle_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\DisplayMagicCircle_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\IceModel_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicEffectShader_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ModelOutLine_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ModelTransparent_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicCircle_GS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicCircle_PS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicCircle_VS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ModelShadow_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MyModelShader_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\NomalModelShader_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0_level_9_3</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcess_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcess_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcess_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcessModel_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0_level_9_3</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Shadow_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Shadow_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Shadow_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Transition_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Transition_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Transition_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\TutorialShader_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\TutorialShader_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\TutorialShader_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\UI_GS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <DeploymentContent>false</DeploymentContent>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\UI_PS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\UI_VS.hlsl">
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Veil_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Veil_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Veil_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MyModelShader_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Resources/Shader/%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ZoomUI_GS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ZoomUI_PS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ZoomUI_VS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets')" />
+    <Import Project="packages\directxtk_desktop_2019.2023.4.28.1\build\native\directxtk_desktop_2019.targets" Condition="Exists('packages\directxtk_desktop_2019.2023.4.28.1\build\native\directxtk_desktop_2019.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.XAudio2.Redist.1.2.11\build\native\Microsoft.XAudio2.Redist.targets'))" />
+    <Error Condition="!Exists('packages\directxtk_desktop_2019.2023.4.28.1\build\native\directxtk_desktop_2019.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\directxtk_desktop_2019.2023.4.28.1\build\native\directxtk_desktop_2019.targets'))" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

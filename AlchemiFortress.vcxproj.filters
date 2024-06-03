@@ -1,0 +1,1331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>287567bf-8cb3-401b-8f0b-72d4987b4dbd</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>414e59d5-7288-44f1-ad0c-7082a07f2d6c</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NecromaLib">
+      <UniqueIdentifier>{0845ca53-23df-4c91-b3cc-258c8e4308b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\GameData">
+      <UniqueIdentifier>{d450f301-c053-4dae-b800-9e1a0ddae9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\SceneObjct">
+      <UniqueIdentifier>{76d764f7-0348-4f1b-aac2-b537ce6909e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{72bc1efb-2a83-43c2-8016-cdbc14c7a00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene">
+      <UniqueIdentifier>{4121fd5b-12ff-4c6b-b651-0a810c01c260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{da221e4c-db08-4bc5-822d-4a2ac25296a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene">
+      <UniqueIdentifier>{e04d9985-abef-476a-ac9f-0675e651e90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\GameData\Sprite">
+      <UniqueIdentifier>{1603b344-486b-4a29-9e0e-4c4fb90b6988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\GameData\GameObject">
+      <UniqueIdentifier>{4042d110-6e46-44e1-9585-be35ecd62fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Field">
+      <UniqueIdentifier>{34774e26-b274-4e1c-a80c-738b33451d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy">
+      <UniqueIdentifier>{92b77667-5e23-4737-9ddc-8b1f14b5b0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\UI">
+      <UniqueIdentifier>{4f8ea88c-f323-42ff-883a-637912a8af5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Camera">
+      <UniqueIdentifier>{35179abd-03bf-4c75-97d2-230d9818fd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Mouse">
+      <UniqueIdentifier>{df3a8aba-0830-48b5-9388-d7e81d61b9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\AlchemicalMachine">
+      <UniqueIdentifier>{566fcc0d-2852-40e0-9214-9f9b0ba460cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\AlchemicalMachine\AM_list">
+      <UniqueIdentifier>{8ab8b3ba-9aff-40a4-96d0-78d828540561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\AlchemicalMachine\Object">
+      <UniqueIdentifier>{aca008df-7843-4611-83f2-44e8e78777f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\AlchemicalMachine\Bullet">
+      <UniqueIdentifier>{81ac7f36-b157-4e6a-885f-9b04974d19af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{714a1525-2c33-4c3c-a13f-d212778a58f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Field\Object">
+      <UniqueIdentifier>{a67cd01d-5c36-4512-aedd-e21967c4b66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Field\Field_ObjectList">
+      <UniqueIdentifier>{fa8d0d13-c546-4593-8105-67147769cd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Shadow">
+      <UniqueIdentifier>{4d23316c-c85f-48fc-a928-8b9f4a508fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Transition">
+      <UniqueIdentifier>{7f14fb41-8f74-49ee-9b0c-05193f7622cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\UI">
+      <UniqueIdentifier>{30b8b529-0ed1-478e-bb57-cb766dc34f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Shader">
+      <UniqueIdentifier>{96e31071-ac3c-4c1d-93e7-f7831c1eaa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\MagicCircle">
+      <UniqueIdentifier>{4fd990b9-d319-4bd3-af64-98b49f447c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene\camera">
+      <UniqueIdentifier>{2ee8d8d7-869f-4bbc-86c1-a90d0df76e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\DisplayMagicCircle">
+      <UniqueIdentifier>{d0a9d934-3894-43c4-a1b2-165e82b3282e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{23ede95d-559d-4971-9b04-c706ef4bc64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\BulletData">
+      <UniqueIdentifier>{7595c136-8b8c-4f0c-b11c-2bf180b84ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\MachineData">
+      <UniqueIdentifier>{24d78aff-2fbd-4f9a-9540-50c18a403fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\StageData">
+      <UniqueIdentifier>{3a593bf9-0913-4ff7-8901-ffddf7c12d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\EnemyData">
+      <UniqueIdentifier>{e1d6a8ad-c43d-46e6-a623-6722c44dd67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SelectScene">
+      <UniqueIdentifier>{7395379b-a64a-4112-aa1c-b48eaad6e95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SelectScene\Camera">
+      <UniqueIdentifier>{406f0935-6f11-40d3-bd6b-d0fda660616c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Commons">
+      <UniqueIdentifier>{fc85c9fc-56c0-4763-b3b9-09e3fe145c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Commons\Mission">
+      <UniqueIdentifier>{0beb3f99-df5b-4de0-a0e9-a5dc2661c683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\DesinPattern">
+      <UniqueIdentifier>{9675ef88-d87a-4ee1-9c7c-3d86e1b6f751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\DesinPattern\Singleton">
+      <UniqueIdentifier>{d4a4b601-55c3-41ba-8510-1d18ef9346a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy\EnemyMoveCommand">
+      <UniqueIdentifier>{3e238bef-c636-455c-a750-796f24c29800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList">
+      <UniqueIdentifier>{ad9e42a3-9e02-4469-b704-c64cb4889a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Tutorial">
+      <UniqueIdentifier>{0abce972-2c45-4b08-b348-56a6a8ab00a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\CutTexture">
+      <UniqueIdentifier>{043de53b-a1ba-4802-9440-3bd09e9201d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene\TitleLogo">
+      <UniqueIdentifier>{84dd3a9a-7bbf-4b8e-964c-13e3a0605ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Veil">
+      <UniqueIdentifier>{51c9fcbe-06da-42e7-aab2-b8aedc7850b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Button">
+      <UniqueIdentifier>{97069f2e-c772-4b0a-a374-6a86543a2644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene\Option">
+      <UniqueIdentifier>{5ce456b7-b105-480a-af36-c6fdc41a7d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NecromaLib\GameData\Audio">
+      <UniqueIdentifier>{27089278-6b6f-4855-b2d8-90fc6bb22092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Model">
+      <UniqueIdentifier>{ff34ec62-cc87-4d62-afd3-aaaa45dc8f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene\Camera">
+      <UniqueIdentifier>{c5bbdb0e-77d1-4a7d-91cd-8c4a30d45443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\T">
+      <UniqueIdentifier>{430fa833-fbf3-4861-ae8b-25d1cf79916a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\BaseLv">
+      <UniqueIdentifier>{91ff32b1-cdf6-4e4e-85d4-c86d5d823c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\StageData\Stage1">
+      <UniqueIdentifier>{406d9bb5-ef69-4ca8-89f7-59f0f2617dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\StageData\Stage2">
+      <UniqueIdentifier>{20a5088d-11f7-4893-92d4-cece5b68d8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData">
+      <UniqueIdentifier>{74b14967-07a6-4fb7-8ff2-28fe4a891020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Tutorial\command">
+      <UniqueIdentifier>{47fa9a36-0762-46d1-a79b-04c512b7b1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\AlchemicalMachine\Object\State">
+      <UniqueIdentifier>{5a1a30e3-8549-455c-a370-2285634dd013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\AlchemicalMachine\Object\Composite">
+      <UniqueIdentifier>{722ec977-1240-4164-8388-78b07ffa686a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Enemy\EnemyState">
+      <UniqueIdentifier>{8299e4ba-c5c3-49bf-a818-bd4bc91831f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\TutorialText">
+      <UniqueIdentifier>{afcaef18-fb4d-42ea-9eda-63ebd19e2bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\StageData\Stage3">
+      <UniqueIdentifier>{96c3d61f-9c32-48a0-a457-4a7a5d3e3e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ZoomUI">
+      <UniqueIdentifier>{ca213ce8-26ed-442e-9ea2-6dd84714d3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Gauge">
+      <UniqueIdentifier>{f6dd3845-1774-4fc1-b06f-04c8d0761473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Alchemi">
+      <UniqueIdentifier>{c37ffd09-01b8-4021-91fe-eeab4628894c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostProcess">
+      <UniqueIdentifier>{637d09ad-c881-4bac-920f-c736d2fa62b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Deapth">
+      <UniqueIdentifier>{2409853c-2763-4a7e-ab8b-7025949c0ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Explanation">
+      <UniqueIdentifier>{c0b1af7a-b504-4280-abb8-ce4ef6240f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Mission">
+      <UniqueIdentifier>{1fac4e4a-d6de-452a-8991-f92accee520d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Option">
+      <UniqueIdentifier>{f6bdb588-d173-4a59-832d-1a2c3383b040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Title">
+      <UniqueIdentifier>{39b94092-35fb-4ab0-9d5a-aab8406e71a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Result">
+      <UniqueIdentifier>{819ccc5c-43a4-4913-8694-4976005dbdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Select">
+      <UniqueIdentifier>{e6679602-f917-46e1-8865-ea0dcfd46451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\GameParameterData\Operation">
+      <UniqueIdentifier>{c3812cc7-30d9-41ff-909b-2edb2558db02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene\Mission">
+      <UniqueIdentifier>{04298bc0-14b1-4814-b453-9b3036e93ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\StageData\Stage4">
+      <UniqueIdentifier>{e7cf8f9e-7caa-4330-9517-516251718bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene\Direction">
+      <UniqueIdentifier>{6fc47231-47c9-4e07-9936-59f023699773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\Particle2D">
+      <UniqueIdentifier>{e72d41f8-426d-4a5c-ab6d-808a74e4eb41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Icon\Icon.h" />
+    <ClInclude Include="NecromaLib\GameData\Collider.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Easing.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\ScreenToWorld.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\SceneObject\Fade.h">
+      <Filter>NecromaLib\SceneObjct</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\SceneObject\SceneObj.h">
+      <Filter>NecromaLib\SceneObjct</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\SceneObject\SceneManager.h">
+      <Filter>NecromaLib\SceneObjct</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\DeltaTime.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\ShareData.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\PlayScene.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TitleScene\TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ResultScene\ResultScene.h">
+      <Filter>Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\SpriteCutter.h">
+      <Filter>NecromaLib\GameData\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\GameObject3D.h">
+      <Filter>NecromaLib\GameData\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\GameObject2D.h">
+      <Filter>NecromaLib\GameData\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyManager.h">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Camera\MoveCamera.h">
+      <Filter>Scene\PlayScene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\InputSupport.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Mouse\MousePointer.h">
+      <Filter>Scene\PlayScene\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Attacker.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineManager.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineObject.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_None.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Defenser.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\MachineSelect.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\MachineSelectManager.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Upper.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Mining.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AM_Recovery.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineFilter.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyObject.h">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\Bullet\Bullet.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\SelectionBox.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\Bullet\BulletDataBase.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\SpriteLoder.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\UserInterfase.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\BinaryFile.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Field\FieldObjectManager.h">
+      <Filter>Scene\PlayScene\Field\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Field\FieldObjectType.h">
+      <Filter>Scene\PlayScene\Field\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Field\Crystal\Crystal.h">
+      <Filter>Scene\PlayScene\Field\Field_ObjectList</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Field\Field.h">
+      <Filter>Scene\PlayScene\Field\Field_ObjectList</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\PlayerBase.h">
+      <Filter>Scene\PlayScene\Field\Field_ObjectList</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Shadow\DorpShadow.h">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Shadow\Particle.h">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\Gauge.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\TextRender.h">
+      <Filter>NecromaLib\GameData\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Shadow\MagicCircle.h">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\MachineGauge.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TitleScene\Camera\TitleCamera.h">
+      <Filter>Scene\TitleScene\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Animation.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\DisplayMagicCircle.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\Number.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\CommonStruct.h">
+      <Filter>NecromaLib\GameData\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\picojson.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\JsonLoder.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\ShareJsonData.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Mission\MissionManager.h">
+      <Filter>Scene\PlayScene\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SelectScene\SelectScene.h">
+      <Filter>Scene\SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SelectScene\SelectCamera.h">
+      <Filter>Scene\SelectScene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SelectScene\MissionRender.h">
+      <Filter>Scene\Commons\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\DataManager.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawArrow.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawMachine.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\SelectionUI.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\UIKeyControl.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\ICommand_Enemy.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\EnemyCommander.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_StandardMove.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_MeanderingMove.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Tutorial\OperationInstructions.h">
+      <Filter>Scene\PlayScene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TitleScene\TitleLogo\TitleLogo.h">
+      <Filter>Scene\TitleScene\TitleLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\ShaderTemplate.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TitleScene\TitleLogo\Veil.h">
+      <Filter>Scene\TitleScene\TitleLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\ShaderButton.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawLine.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawBox.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\SoundData.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TitleScene\Option\RenderOption.h">
+      <Filter>Scene\TitleScene\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Audio\BGMs.h">
+      <Filter>NecromaLib\GameData\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Audio\SEs.h">
+      <Filter>NecromaLib\GameData\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Audio\SystemSE.h">
+      <Filter>NecromaLib\GameData\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawSlider.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawTimer.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Tutorial\Explanation.h">
+      <Filter>Scene\PlayScene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_HoppingMove.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ResultScene\Camera\ResultCamera.h">
+      <Filter>Scene\ResultScene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\Singleton\ModelShader.h">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\UI\BaseLv.h">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\AlchemicalMachine\StatePattern\IAM_MachineState.h">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\State\IEnemyState.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Enemy\State\EnemyState.h">
+      <Filter>Scene\PlayScene\Enemy\EnemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawVariableNum.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Tutorial\TutorialManager.h">
+      <Filter>Scene\PlayScene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Tutorial\CommandPattern\ICommand_Tutorial.h">
+      <Filter>Scene\PlayScene\Tutorial\command</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Tutorial\CommandPattern\Commander_Tutorial.h">
+      <Filter>Scene\PlayScene\Tutorial\command</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Tutorial\CommandPattern\TutorialCommands.h">
+      <Filter>Scene\PlayScene\Tutorial\command</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\MyPostProcess.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawKey.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\MissonAnimation.h">
+      <Filter>Scene\Commons\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Mission\ClearVeil.h">
+      <Filter>Scene\PlayScene\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Camera.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ResultScene\ResultDirection.h">
+      <Filter>Scene\ResultScene\Direction</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Commons\DrawClick.h">
+      <Filter>Scene\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\MouseStaging.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Shadow\ParticleUtility.h">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="NecromaLib\GameData\Particle_2D.h">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PlayScene\Mission\EndlessMode.h">
+      <Filter>Scene\PlayScene\Mission</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\Collider.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\Easing.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\ScreenToWorld.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\SceneObject\Fade.cpp">
+      <Filter>NecromaLib\SceneObjct</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\SceneObject\SceneObj.cpp">
+      <Filter>NecromaLib\SceneObjct</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\SceneObject\SceneManager.cpp">
+      <Filter>NecromaLib\SceneObjct</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\DeltaTime.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\ShareData.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\PlayScene.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TitleScene\TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ResultScene\ResultScene.cpp">
+      <Filter>Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\SpriteCutter.cpp">
+      <Filter>NecromaLib\GameData\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\GameObject3D.cpp">
+      <Filter>NecromaLib\GameData\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\GameObject2D.cpp">
+      <Filter>NecromaLib\GameData\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyManager.cpp">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Camera\MoveCamera.cpp">
+      <Filter>Scene\PlayScene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\InputSupport.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Mouse\MousePointer.cpp">
+      <Filter>Scene\PlayScene\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Attacker.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineManager.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineObject.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_None.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Defenser.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\MachineSelect.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\MachineSelectManager.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Upeer.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Mining.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AM_Recovery.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\AM_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\AlchemicalMachineFilter.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyObject.cpp">
+      <Filter>Scene\PlayScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\Bullet\Bullet.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\SelectionBox.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\Bullet\BulletDataBase.cpp">
+      <Filter>Scene\PlayScene\AlchemicalMachine\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\SpriteLoder.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\UserInterfase.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\BinaryFile.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Field\FieldObjectManager.cpp">
+      <Filter>Scene\PlayScene\Field\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Field\FieldObjectType.cpp">
+      <Filter>Scene\PlayScene\Field\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Field\Crystal\Crystal.cpp">
+      <Filter>Scene\PlayScene\Field\Field_ObjectList</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Field\Field.cpp">
+      <Filter>Scene\PlayScene\Field\Field_ObjectList</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\AlchemicalMachine\PlayerBase.cpp">
+      <Filter>Scene\PlayScene\Field\Field_ObjectList</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Shadow\DorpShadow.cpp">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Shadow\Particle.cpp">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Shadow\ParticleUtility.cpp">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\Gauge.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\TextRender.cpp">
+      <Filter>NecromaLib\GameData\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Shadow\MagicCircle.cpp">
+      <Filter>Scene\PlayScene\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\MachineGauge.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TitleScene\Camera\TitleCamera.cpp">
+      <Filter>Scene\TitleScene\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\DisplayMagicCircle.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\Number.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\JsonLoder.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\ShareJsonData.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Mission\MissionManager.cpp">
+      <Filter>Scene\PlayScene\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SelectScene\SelectScene.cpp">
+      <Filter>Scene\SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SelectScene\SelectCamera.cpp">
+      <Filter>Scene\SelectScene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SelectScene\MissionRender.cpp">
+      <Filter>Scene\Commons\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\DataManager.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawMachine.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawArrow.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\SelectionUI.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\UIKeyControl.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\EnemyCommander.cpp">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_StandardMove.cpp">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_MeanderingMove.cpp">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Tutorial\OperationInstructions.cpp">
+      <Filter>Scene\PlayScene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TitleScene\TitleLogo\TitleLogo.cpp">
+      <Filter>Scene\TitleScene\TitleLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\ShaderTemplate.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TitleScene\TitleLogo\Veil.cpp">
+      <Filter>Scene\TitleScene\TitleLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\ShaderButton.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawLine.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawBox.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\SoundData.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TitleScene\Option\RenderOption.cpp">
+      <Filter>Scene\TitleScene\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\Audio\SEs.cpp">
+      <Filter>NecromaLib\GameData\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawSlider.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawTimer.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Tutorial\Explanation.cpp">
+      <Filter>Scene\PlayScene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\EnemyList\Enemy_HoppingMove.cpp">
+      <Filter>Scene\PlayScene\Enemy\EnemyMoveCommand\MoveList</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ResultScene\Camera\ResultCamera.cpp">
+      <Filter>Scene\ResultScene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\Singleton\ModelShader.cpp">
+      <Filter>NecromaLib\DesinPattern\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\UI\BaseLv.cpp">
+      <Filter>Scene\PlayScene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Enemy\State\EnemyState.cpp">
+      <Filter>Scene\PlayScene\Enemy\EnemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawVariableNum.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Tutorial\TutorialManager.cpp">
+      <Filter>Scene\PlayScene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Tutorial\CommandPattern\TutorialCommands.cpp">
+      <Filter>Scene\PlayScene\Tutorial\command</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\MyPostProcess.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawKey.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\MissonAnimation.cpp">
+      <Filter>Scene\Commons\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Mission\ClearVeil.cpp">
+      <Filter>Scene\PlayScene\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\Camera.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ResultScene\ResultDirection.cpp">
+      <Filter>Scene\ResultScene\Direction</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Commons\DrawClick.cpp">
+      <Filter>Scene\Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\MouseStaging.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="NecromaLib\GameData\Particle_2D.cpp">
+      <Filter>NecromaLib\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PlayScene\Mission\EndlessMode.cpp">
+      <Filter>Scene\PlayScene\Mission</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+    <ResourceCompile Include="Resources\Icon\Icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Shader\Shadow.hlsli">
+      <Filter>Shader\Shadow</Filter>
+    </None>
+    <None Include="Resources\Shader\Transition.hlsli">
+      <Filter>Shader\Transition</Filter>
+    </None>
+    <None Include="Resources\Shader\UI.hlsli">
+      <Filter>Shader\UI</Filter>
+    </None>
+    <None Include="Resources\Shader\MagicCircle.hlsli">
+      <Filter>Shader\MagicCircle</Filter>
+    </None>
+    <None Include="Resources\Shader\DisplayMagicCircle.hlsli">
+      <Filter>Shader\DisplayMagicCircle</Filter>
+    </None>
+    <None Include="Resources\Json\BulletData\BulletData_Flame.json">
+      <Filter>Json\BulletData</Filter>
+    </None>
+    <None Include="Resources\Json\BulletData\BulletData_Nomal.json">
+      <Filter>Json\BulletData</Filter>
+    </None>
+    <None Include="Resources\Json\BulletData\BulletData_Aqua.json">
+      <Filter>Json\BulletData</Filter>
+    </None>
+    <None Include="Resources\Json\BulletData\BulletData_Earth.json">
+      <Filter>Json\BulletData</Filter>
+    </None>
+    <None Include="Resources\Json\BulletData\BulletData_Wind.json">
+      <Filter>Json\BulletData</Filter>
+    </None>
+    <None Include="Resources\Json\MachineData\MachineData_Attacker.json">
+      <Filter>Json\MachineData</Filter>
+    </None>
+    <None Include="Resources\Json\MachineData\MachineData_Defenser.json">
+      <Filter>Json\MachineData</Filter>
+    </None>
+    <None Include="Resources\Json\MachineData\MachineData_Mining.json">
+      <Filter>Json\MachineData</Filter>
+    </None>
+    <None Include="Resources\Json\MachineData\MachineData_None.json">
+      <Filter>Json\MachineData</Filter>
+    </None>
+    <None Include="Resources\Json\MachineData\MachineData_Recovery.json">
+      <Filter>Json\MachineData</Filter>
+    </None>
+    <None Include="Resources\Json\MachineData\MachineData_Upper.json">
+      <Filter>Json\MachineData</Filter>
+    </None>
+    <None Include="Resources\Json\EnemyData\EnemyData_Slime.json">
+      <Filter>Json\EnemyData</Filter>
+    </None>
+    <None Include="Resources\Json\EnemyData\EnemyData_None.json">
+      <Filter>Json\EnemyData</Filter>
+    </None>
+    <None Include="Resources\Json\EnemyData\EnemyData_Worm.json">
+      <Filter>Json\EnemyData</Filter>
+    </None>
+    <None Include="Resources\Shader\CutTexture.hlsli">
+      <Filter>Shader\CutTexture</Filter>
+    </None>
+    <None Include="Resources\Shader\Veil.hlsli">
+      <Filter>Shader\Veil</Filter>
+    </None>
+    <None Include="Resources\Shader\Button.hlsli">
+      <Filter>Shader\Button</Filter>
+    </None>
+    <None Include="Resources\Shader\MyModelShader.hlsli">
+      <Filter>Shader\Model</Filter>
+    </None>
+    <None Include="Resources\Json\EnemyData\EnemyData_Hop.json">
+      <Filter>Json\EnemyData</Filter>
+    </None>
+    <None Include="Resources\Shader\BaseLv.hlsli">
+      <Filter>Shader\BaseLv</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\GameParameter.json">
+      <Filter>Json\GameParameterData</Filter>
+    </None>
+    <None Include="Resources\Json\EnemyData\EnemyData_Retreat.json">
+      <Filter>Json\EnemyData</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_1.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_3.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_4.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_5.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Shader\TutorialShader.hlsli">
+      <Filter>Shader\TutorialText</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_6.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_7.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_8.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_9.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_2\StageData_2_1.json">
+      <Filter>Json\StageData\Stage2</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_2\StageData_2_2.json">
+      <Filter>Json\StageData\Stage2</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_3\StageData_3_1.json">
+      <Filter>Json\StageData\Stage3</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_3\StageData_3_2.json">
+      <Filter>Json\StageData\Stage3</Filter>
+    </None>
+    <None Include="Resources\Shader\ZoomUI.hlsli">
+      <Filter>Shader\ZoomUI</Filter>
+    </None>
+    <None Include="Resources\Shader\PostProcess.hlsli">
+      <Filter>Shader\PostProcess</Filter>
+    </None>
+    <None Include="Resources\Shader\ShadowDepth.hlsli">
+      <Filter>Shader\Deapth</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Option\UILayout_OptionDouble.json">
+      <Filter>Json\GameParameterData\Option</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Option\UILayout_OptionExplanation.json">
+      <Filter>Json\GameParameterData\Option</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Option\UILayout_OptionOffset.json">
+      <Filter>Json\GameParameterData\Option</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Title\UILayout_TitleButton.json">
+      <Filter>Json\GameParameterData\Title</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Title\UILayout_TitleLogo.json">
+      <Filter>Json\GameParameterData\Title</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Title\UILayout_TitleVeil.json">
+      <Filter>Json\GameParameterData\Title</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionArrow.json">
+      <Filter>Json\GameParameterData\Mission</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionOffset.json">
+      <Filter>Json\GameParameterData\Mission</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionText.json">
+      <Filter>Json\GameParameterData\Mission</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionTimer.json">
+      <Filter>Json\GameParameterData\Mission</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeBaseLv.json">
+      <Filter>Json\GameParameterData\Gauge</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeCrystal.json">
+      <Filter>Json\GameParameterData\Gauge</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeHP.json">
+      <Filter>Json\GameParameterData\Gauge</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeMP.json">
+      <Filter>Json\GameParameterData\Gauge</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Gauge\UILayout_GaugeOffset.json">
+      <Filter>Json\GameParameterData\Gauge</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationBack.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationDestory.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationLvUp.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationNext.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationOffset.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationRepair.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Explanation\UILayout_ExplanationSpawn.json">
+      <Filter>Json\GameParameterData\Explanation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiCrystal.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMode.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMachineIcon.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMiddle.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiMP.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiNum.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiOffset.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectLeft.json">
+      <Filter>Json\GameParameterData\Select</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectMiddle.json">
+      <Filter>Json\GameParameterData\Select</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectMission.json">
+      <Filter>Json\GameParameterData\Select</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectNumber.json">
+      <Filter>Json\GameParameterData\Select</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Select\UILayout_SelectRight.json">
+      <Filter>Json\GameParameterData\Select</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Result\UILayout_ResultRetry.json">
+      <Filter>Json\GameParameterData\Result</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Result\UILayout_ResultNext.json">
+      <Filter>Json\GameParameterData\Result</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Result\UILayout_ResultSelect.json">
+      <Filter>Json\GameParameterData\Result</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationArrowL.json">
+      <Filter>Json\GameParameterData\Operation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationOffset.json">
+      <Filter>Json\GameParameterData\Operation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationSelect.json">
+      <Filter>Json\GameParameterData\Operation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationTitle.json">
+      <Filter>Json\GameParameterData\Operation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationArrowR.json">
+      <Filter>Json\GameParameterData\Operation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Operation\UILayout_OperationText.json">
+      <Filter>Json\GameParameterData\Operation</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionMaxWave.json">
+      <Filter>Json\GameParameterData\Mission</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Mission\UILayout_MissionNowWave.json">
+      <Filter>Json\GameParameterData\Mission</Filter>
+    </None>
+    <None Include="Resources\Json\GameParameter\Alchemi\UILayout_AlchemiText.json">
+      <Filter>Json\GameParameterData\Alchemi</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_1\StageData_1_2.json">
+      <Filter>Json\StageData\Stage1</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Stage_4\StageData_4_1.json">
+      <Filter>Json\StageData\Stage4</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\MouseClick.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\MouseHold.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\MouseRelease.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\AlchemiCircle.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\AlchemiParticle.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\BoxSmall.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\BoxBig.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\ClearParticle.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\Particle2D\BoxToMouse.json">
+      <Filter>Json\Particle2D</Filter>
+    </None>
+    <None Include="Resources\Json\StageData\Endless\StageData_0_0.json">
+      <Filter>Json\StageData</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\Transition_GS.hlsl">
+      <Filter>Shader\Transition</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Transition_PS.hlsl">
+      <Filter>Shader\Transition</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Transition_VS.hlsl">
+      <Filter>Shader\Transition</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\UI_GS.hlsl">
+      <Filter>Shader\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\UI_PS.hlsl">
+      <Filter>Shader\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\UI_VS.hlsl">
+      <Filter>Shader\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Shadow_GS.hlsl">
+      <Filter>Shader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Shadow_PS.hlsl">
+      <Filter>Shader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Shadow_VS.hlsl">
+      <Filter>Shader\Shadow</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicCircle_GS.hlsl">
+      <Filter>Shader\MagicCircle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicCircle_PS.hlsl">
+      <Filter>Shader\MagicCircle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicCircle_VS.hlsl">
+      <Filter>Shader\MagicCircle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\DisplayMagicCircle_GS.hlsl">
+      <Filter>Shader\DisplayMagicCircle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\DisplayMagicCircle_PS.hlsl">
+      <Filter>Shader\DisplayMagicCircle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\DisplayMagicCircle_VS.hlsl">
+      <Filter>Shader\DisplayMagicCircle</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\CutTexture_GS.hlsl">
+      <Filter>Shader\CutTexture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\CutTexture_PS.hlsl">
+      <Filter>Shader\CutTexture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\CutTexture_VS.hlsl">
+      <Filter>Shader\CutTexture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Veil_GS.hlsl">
+      <Filter>Shader\Veil</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Veil_PS.hlsl">
+      <Filter>Shader\Veil</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Veil_VS.hlsl">
+      <Filter>Shader\Veil</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Button_GS.hlsl">
+      <Filter>Shader\Button</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Button_PS.hlsl">
+      <Filter>Shader\Button</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\Button_VS.hlsl">
+      <Filter>Shader\Button</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MyModelShader_PS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MyModelShader_VS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ModelTransparent_PS.hlsl">
+      <Filter>Shader\T</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\BaseLv_GS.hlsl">
+      <Filter>Shader\BaseLv</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\BaseLv_PS.hlsl">
+      <Filter>Shader\BaseLv</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\BaseLv_VS.hlsl">
+      <Filter>Shader\BaseLv</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\IceModel_PS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\MagicEffectShader_PS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\TutorialShader_VS.hlsl">
+      <Filter>Shader\TutorialText</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\TutorialShader_PS.hlsl">
+      <Filter>Shader\TutorialText</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\TutorialShader_GS.hlsl">
+      <Filter>Shader\TutorialText</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ZoomUI_GS.hlsl">
+      <Filter>Shader\ZoomUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ZoomUI_VS.hlsl">
+      <Filter>Shader\ZoomUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ZoomUI_PS.hlsl">
+      <Filter>Shader\ZoomUI</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\NomalModelShader_PS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcess_GS.hlsl">
+      <Filter>Shader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcess_PS.hlsl">
+      <Filter>Shader\PostProcess</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcessModel_PS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ModelShadow_PS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\ModelOutLine_VS.hlsl">
+      <Filter>Shader\Model</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shader\PostProcess_VS.hlsl">
+      <Filter>Shader\PostProcess</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

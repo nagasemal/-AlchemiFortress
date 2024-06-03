@@ -1,0 +1,25 @@
+{
+  "Status": {
+    "ELEMENT": "Flame",
+    "TYPE": "Hop",
+    "MOVETYPE": "ALL",
+    "HP": 3.0,
+    "STR": 2.3,
+    "EXP": 34.0,
+
+    "MOVEING": [
+      {
+        "TYPE": "Hopping",
+        "TIME": 0.0,
+        "DELAY": 0.0,
+        "VALUE": 2.5
+      },
+      {
+        "TYPE": "Standard",
+        "TIME": 0.0,
+        "DELAY": 0.0,
+        "VALUE": 1.5
+      }
+    ]
+  }
+}

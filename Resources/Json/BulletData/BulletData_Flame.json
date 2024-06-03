@@ -1,0 +1,10 @@
+{
+  "Status": {
+    "ELEMENT": "Flame",
+    "STR": 25.0,
+    "SPEED": 5.0,
+    "SPAN": 9.0,
+    "LIFE": 8.5,
+    "LOSSMP": 16.0
+  }
+}

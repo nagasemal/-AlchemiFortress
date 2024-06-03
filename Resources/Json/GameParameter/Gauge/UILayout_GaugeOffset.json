@@ -1,0 +1,30 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 720.0,
+      "POS_Y": 560.0,
+      "RAGE_X": 0.0,
+      "RAGE_Y": 0.0,
+
+      "OPTION": [
+        {
+          "TAG": "COLLIDER_X",
+          "VAL": 2500.0
+        },
+        {
+          "TAG": "COLLIDER_Y",
+          "VAL": 860.0
+        },
+        {
+          "TAG": "NUMRENDER_RATE",
+          "VAL": 2.2
+        }
+      ],
+      "KEYS": [
+      ]
+    }
+    }
+
+}

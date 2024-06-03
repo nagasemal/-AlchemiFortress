@@ -1,0 +1,31 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 0.0,
+      "POS_Y": 0.0,
+      "RAGE_X": 0.6,
+      "RAGE_Y": 0.6,
+
+      "OPTION": [
+        {
+          "TAG": "LAYER",
+          "VAL": 2
+        },
+        {
+          "TAG": "COLLIDER",
+          "VAL": 350
+        }
+      ],
+      "KEYS": [
+        {
+          "CODE": "0x5a"
+        },
+        {
+          "CODE": "0xd"
+        }
+      ]
+    }
+  }
+}

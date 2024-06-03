@@ -1,0 +1,19 @@
+{
+  "Status": {
+    "ELEMENT":"Nomal",
+    "TYPE":"Slime",
+    "MOVETYPE":"ALL",
+    "HP": 8.0,
+    "STR": 1.5,
+    "EXP": 34.0,
+
+    "MOVEING":[
+      {
+        "TYPE": "Standard",
+        "TIME": 0.0,
+        "DELAY": 0.0,
+        "VALUE": 1.5
+      }
+    ]
+  }
+}

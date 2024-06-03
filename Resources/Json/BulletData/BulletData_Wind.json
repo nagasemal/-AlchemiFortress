@@ -1,0 +1,10 @@
+{
+  "Status": {
+    "ELEMENT": "Wind",
+    "STR": 8.0,
+    "SPEED": 12.0,
+    "SPAN": 6.0,
+    "LIFE": 6.25,
+    "LOSSMP": 9.0
+  }
+}
