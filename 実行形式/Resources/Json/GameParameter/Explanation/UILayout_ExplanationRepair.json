@@ -1,0 +1,27 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 170.0,
+      "POS_Y": 0.0,
+      "RAGE_X": 1.0,
+      "RAGE_Y": 1.0,
+
+      "OPTION": [
+      ],
+      "KEYS": [
+        {
+          "CODE": "0x42"
+        },
+        {
+          "CODE": "0x2d"
+        }
+      ]
+    }
+  }
+
+}
+
+// キー
+// INSERT / B  

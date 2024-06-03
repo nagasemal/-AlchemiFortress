@@ -1,0 +1,10 @@
+{
+  "Status": {
+    "ELEMENT": "Aqua",
+    "STR": 17.0,
+    "SPEED": 6.5,
+    "SPAN": 8.0,
+    "LIFE": 20.0,
+    "LOSSMP": 20.0
+  }
+}

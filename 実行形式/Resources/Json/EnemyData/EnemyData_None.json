@@ -1,0 +1,20 @@
+{
+  "Status": {
+    "ELEMENT":"Normal",
+    "TYPE":"None",
+    "MOVETYPE":"ALL",
+    "HP": 1.0,
+    "STR": 1.0,
+    "EXP": 1.0,
+
+    "MOVEING":[
+      {
+        "TYPE": "Standerd",
+        "TIME": 0.0,
+        "DELAY": 0.0,
+        "VALUE": 1.5
+      }
+
+    ]
+  }
+}

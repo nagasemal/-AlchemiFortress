@@ -1,0 +1,21 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 0.0,
+      "POS_Y":  65.0,
+      "RAGE_X": 1.0,
+      "RAGE_Y": 1.0,
+
+      "OPTION": [
+        {
+          "TAG": "ANIM_VAL",
+          "VAL": 30.0
+        }
+      ],
+      "KEYS": [
+      ]
+    }
+  }
+}

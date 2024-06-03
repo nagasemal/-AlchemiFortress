@@ -1,0 +1,25 @@
+{
+  "Status": {
+    "ELEMENT":"Aqua",
+    "TYPE":"Slime",
+    "MOVETYPE":"ONE",
+    "HP": 10.0,
+    "STR": 1.5,
+    "EXP": 35.0,
+
+    "MOVEING":[
+      {
+        "TYPE": "Standard",
+        "TIME": 3.0,
+        "DELAY": 0.0,
+        "VALUE": 1.5
+      },
+      {
+        "TYPE": "Standard",
+        "TIME": 1.0,
+        "DELAY": 0.0,
+        "VALUE": -1.3
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "CRYSTAL_SPAWN": {
+    "CRYSTALS": []
+  },
+  "Conditions_Enemy": {
+    "ENEMY_KNOCKDOWN": [
+      {
+        "TYPE": "All",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Machine": {
+    "MACHINE_SPAWN": [
+      {
+        "TYPE": "Attacker",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Alchemi": {
+    "MACHINE_ALCHEMI": [
+      {
+        "TYPE": "Attacker",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_BaseLv": {
+    "BASE_LV": [
+      {
+        "TYPE": "Standerd",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Time": {
+    "TIME": [
+      {
+        "TYPE": "True",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Resource": {
+    "RESOURCE": [
+      {
+        "TYPE": "MP",
+        "VALUE": 40
+      },
+      {
+        "TYPE": "Crystal",
+        "VALUE": 25
+      }
+    ]
+  },
+  "ENEMY_SPAWNTIME": {
+    "ENEMYS": [
+    ]
+  },
+  "MACHINE_DEFAULET": {
+    "MACHINES": []
+  },
+  "RESOURCE_DEFAULET": {
+    "ATTACKER": 0,
+    "CRYSTAL": -500,
+    "DEFFENCER": 0,
+    "LV": 1,
+    "HP": 500,
+    "MINING": 0,
+    "MP": -500,
+    "EXP": 0,
+    "RECOVERY": 0,
+    "UPPER": 0
+  },
+  "TUTORIAL": [
+    {
+      "NUMBER": 0,
+      "VAL": 0
+    }
+  ],
+  "LastWave": false,
+  "EnemyLv": 1
+}
+
+// エクスカベーターが結晶を回収するチュートリアル

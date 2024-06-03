@@ -1,0 +1,23 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 200.0,
+      "POS_Y": 500.0,
+      "RAGE_X": 1.0,
+      "RAGE_Y": 1.0,
+      "OPTION": [
+      ],
+      "KEYS": [
+        {
+          "CODE": "0x41"
+        },
+        {
+          "CODE": "0x25"
+        }
+      ]
+    }
+    }
+
+}

@@ -1,0 +1,26 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 0.0,
+      "POS_Y": 0.0,
+      "RAGE_X": 1.25,
+      "RAGE_Y": 1.25,
+
+      "OPTION": [
+      ],
+      "KEYS": [
+        {
+          "CODE": "0x45"
+        },
+        {
+          "CODE": "0x22"
+        }
+      ]
+    }
+  }
+
+}
+// マシン配置UI
+// キー：E / PGDN

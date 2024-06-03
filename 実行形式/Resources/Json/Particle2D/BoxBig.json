@@ -1,0 +1,110 @@
+{
+  "PARAMETER": {
+    "Tag": "BoxBig",
+    "DrawMode": "Add",
+
+    "Time": 0.035,
+
+    "Num": 1.0,
+    "Num_Max": 0.0,
+
+    "Life": 0.15,
+    "Life_Max": 0.0,
+
+    "Rage": -1.0,
+    "Rage_Max": 1.5,
+
+    "Rotate": 0.0,
+    "Rotate_Max": 0.0,
+    "Rotate_E": 360.0,
+    "Rotate_E_Max": 0.0,
+    "RotateType": "None",
+
+    "Positions": [
+      {
+        "X": -50.0,
+        "Y": -50.0
+      },
+      {
+        "X": 50.0,
+        "Y": -50.0
+      },
+      {
+        "X": 50.0,
+        "Y": 50.0
+      },
+      {
+        "X": -50.0,
+        "Y": 50.0
+      }
+    ],
+    "LinerType": "Chain_E",
+    "LinerSpeed": 0.5,
+    "LinerSpeed_Max": 0.0,
+
+    "Velocity": {
+      "Type": "Brast",
+      "X": -5.0,
+      "Y": -5.0
+    },
+    "Velocity_Max": {
+      "X": 5.0,
+      "Y": 5.0
+    },
+
+    "Accele": {
+      "Type": "Brast",
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "Accele_Max": {
+      "X": 5.0,
+      "Y": 5.0
+    },
+
+    "Scale_F": {
+      "X": 0.42,
+      "Y": 0.42
+    },
+    "Scale_F_Max": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+
+    "Scale_E": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "Scale_E_Max": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+
+    "Color_F": {
+      "R": 0.3,
+      "G": 0.1,
+      "B": 0.1,
+      "A": 0.8
+    },
+    "Color_F_Max": {
+      "R": 0.4,
+      "G": 0.14,
+      "B": 0.14,
+      "A": 0.85
+    },
+
+    "Color_E": {
+      "R": 0.3,
+      "G": 0.1,
+      "B": 0.1,
+      "A": 0.5
+    },
+
+    "Color_E_Max": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 0.0
+    }
+  }
+}

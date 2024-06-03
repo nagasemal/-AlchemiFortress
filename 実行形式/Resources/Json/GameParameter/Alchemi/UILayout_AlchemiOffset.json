@@ -1,0 +1,16 @@
+{
+  "UILAYOUT": {
+
+      "MASTER": {
+        "POS_X": 640.0,
+        "POS_Y": 630.0,
+        "RAGE_X": -0.08,
+        "RAGE_Y": -0.08,
+
+        "OPTION": [
+        ],
+        "KEYS": [
+        ]
+      }
+    }
+}

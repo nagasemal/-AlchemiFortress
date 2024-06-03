@@ -1,0 +1,92 @@
+{
+  "PARAMETER": {
+    "Tag": "BoxToMouse",
+    "DrawMode": "None",
+
+    "Time": 1.0,
+
+    "Num": 2.0,
+    "Num_Max": 0.0,
+
+    "Life": 1.15,
+    "Life_Max": 1.5,
+
+    "Rage": -1.0,
+    "Rage_Max": 1.0,
+
+    "Rotate": 0.0,
+    "Rotate_Max": 0.0,
+    "Rotate_E": 0.0,
+    "Rotate_E_Max": 0.0,
+
+    "Positions": [
+    ],
+    "LinerType": "Start_E",
+    "LinerSpeed": 3.0,
+    "LinerSpeed_Max": 0.0,
+
+    "Velocity": {
+      "Type": "None",
+      "X": -5.0,
+      "Y": -5.0
+    },
+    "Velocity_Max": {
+      "X": 5.0,
+      "Y": 5.0
+    },
+
+    "Accele": {
+      "Type": "None",
+      "X": -3.0,
+      "Y": -3.0
+    },
+    "Accele_Max": {
+      "X": 3.0,
+      "Y": 3.0
+    },
+
+    "Scale_F": {
+      "X": 0.32,
+      "Y": 0.32
+    },
+    "Scale_F_Max": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+
+    "Scale_E": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "Scale_E_Max": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+
+    "Color_F": {
+      "R": 0.2,
+      "G": 1.0,
+      "B": 0.2,
+      "A": 1.0
+    },
+    "Color_F_Max": {
+      "R": 0.3,
+      "G": 1.0,
+      "B": 0.3,
+      "A": 1.0
+    },
+
+    "Color_E": {
+      "R": 1.0,
+      "G": 1.0,
+      "B": 1.0,
+      "A": 0.0
+    },
+    "Color_E_Max": {
+      "R": 0.0,
+      "G": 0.0,
+      "B": 0.0,
+      "A": 0.0
+    }
+  }
+}

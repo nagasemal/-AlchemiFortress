@@ -1,0 +1,25 @@
+{
+
+  "UILAYOUT": {
+
+    "MASTER": {
+      "POS_X": 0.0,
+      "POS_Y": 0.0,
+      "RAGE_X": 1.0,
+      "RAGE_Y": 1.0,
+      "OPTION": [
+        {
+          "TAG": "CloseVal",
+          "VAL": 280
+        },
+        {
+          "TAG": "MaxAlpha",
+          "VAL": 0.75
+        }
+      ],
+      "KEYS": [
+      ]
+    }
+    }
+
+}

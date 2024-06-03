@@ -1,0 +1,115 @@
+{
+  "CRYSTAL_SPAWN": {
+    "CRYSTALS": [
+      {
+        "SPAWN_X": -4,
+        "SPAWN_Z": 4
+      },
+      {
+        "SPAWN_X": 12,
+        "SPAWN_Z": 12
+      }
+    ]
+  },
+  "Conditions_Enemy": {
+    "ENEMY_KNOCKDOWN": [
+      {
+        "TYPE": "All",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Machine": {
+    "MACHINE_SPAWN": [
+      {
+        "TYPE": "Defenser",
+        "VALUE": 1
+      }
+    ]
+  },
+  "Conditions_Alchemi": {
+    "MACHINE_ALCHEMI": [
+      {
+        "TYPE": "Attacker",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Destroy": {
+    "MACHINE_DESTROY": [
+      {
+        "TYPE": "Attacker",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Recovery": {
+    "MACHINE_RECOVERY": [
+      {
+        "TYPE": "Attacker",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_LvUp": {
+    "MACHINE_LVUP": [
+      {
+        "TYPE": "Attacker",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_BaseLv": {
+    "BASE_LV": [
+      {
+        "TYPE": "Standerd",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Time": {
+    "TIME": [
+      {
+        "TYPE": "True",
+        "VALUE": -1
+      }
+    ]
+  },
+  "Conditions_Resource": {
+    "RESOURCE": [
+      {
+        "TYPE": "MP",
+        "VALUE": -1
+      }
+    ]
+  },
+  "ENEMY_SPAWNTIME": {
+    "ENEMYS": [
+    ]
+  },
+  "MACHINE_DEFAULET": {
+    "MACHINES": []
+  },
+  "RESOURCE_DEFAULET": {
+    "ATTACKER": 0,
+    "CRYSTAL": 40,
+    "DEFFENCER": 0,
+    "LV": 1,
+    "HP": 5000,
+    "MINING": 0,
+    "MP": 20,
+    "EXP": 0,
+    "RECOVERY": 0,
+    "UPPER": 0
+  },
+  "TUTORIAL": [
+    {
+      "NUMBER": 0,
+      "VAL": 0
+    }
+  ],
+  "LastWave": false,
+  "EnemyLv": 1
+}
+
+// ディフェンサーマシンを設置するチュートリアル
